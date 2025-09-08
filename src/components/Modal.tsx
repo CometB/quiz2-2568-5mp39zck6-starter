@@ -30,6 +30,6 @@ export default function AddExpenseModal({}: AddExpenseModalProps) {
   console.log(val_number + 100); // 600.0
 
   return {
-    /* Type additional text here. */
+    
   };
 }
