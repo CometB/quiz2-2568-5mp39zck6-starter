@@ -26,10 +26,10 @@ export default function ExpenseTracker() {
 
       <Divider my="md" />
       {/* Type additional total cost here. */}
-      <Title order={4}>Total cost: {expenses && 0} Baht</Title>
-      <Stack my="sm">{categories[0]}: {expenses && 0} Baht</Stack>
-      <Stack my="sm">{categories[1]}: {expenses && 0} Baht</Stack>
-      <Stack my="sm">{categories[2]}: {expenses && 0} Baht</Stack>
+      <Title order={4}>Total cost: {0} Baht</Title>
+      <Stack my="sm">{categories[0]}: {0} Baht</Stack>
+      <Stack my="sm">{categories[1]}: {0} Baht</Stack>
+      <Stack my="sm">{categories[2]}: {0} Baht</Stack>
 
       <Divider my="md" />
       {/* Type additional card here. */}
